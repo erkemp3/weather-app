@@ -1,13 +1,13 @@
-import "../styles/App.css";
 import React from "react";
 import PropTypes from "prop-types";
 import LocationDetails from "./LocationDetails";
+import "../styles/App.css";
 
-const App = ({ location }) => {
-  const { city, country } = location;
+const App = (props) => {
+  const { location } = props;
   return (
-    <div className="App">
-      <LocationDetails city={city} country={country} />
+    <div className="weather-app">
+      <LocationDetails city={location.city} country={location.country} />
     </div>
   );
 };
