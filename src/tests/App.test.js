@@ -1,8 +1,9 @@
 import { render, screen } from "@testing-library/react";
 import App from "../components/App";
+import { location, forecasts } from "../data/forecast.json";
 
-test.skip("renders weather app link", () => {
-  render(<App />);
-  const linkElement = screen.getByText(/Weather App/i);
+test("renders weather app link", () => {
+  render(<App forecasts={forecasts} location={location} />);
+  const linkElement = screen.getByText(/Manchester, UK/i);
   expect(linkElement).toBeInTheDocument();
 });
