@@ -26,7 +26,9 @@ const getForecast = (
     .catch((error) => {
       const { status } = error.response;
       if (status === 404) {
-        setErrorMessage("No such town or city, try again!");
+        setErrorMessage(
+          "UK cities only - please check your spelling and try again😊"
+        );
         console.error("Location is not valid", error);
       }
       if (status === 500) {
