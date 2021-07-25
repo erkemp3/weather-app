@@ -1,23 +1,27 @@
-## Weather-App 
+## Weather App by Ellie Kemp - now live [here](https://erkemp3.github.io/weather-app/) 🌦️ 
 
 This a 5 day weather forecasting app built with React that uses live data from an API. The app allows the user to search for the weather within the UK. 
 
-### Techonologies
+## Built Using:
 
-- HTML;
+* React
+* HTML
+* CSS
+* JavaScript
+* Node.js
+* APIs
 
-- CSS;
+## Tested Using:
 
-- JavaScript;
+* Jest
+* React Testing Library
 
-- Node.js;
+## NPM Packages used:
 
-- Axios and APIs.
+* Axios
+* PropTypes
 
-### Testing
-
-React Testing Library<br />
-Jest
+- - - -
 
 ### In the project directory, you can run:
 
@@ -34,6 +38,4 @@ You will also see any lint errors in the console.
 Launches the test runner in the interactive watch mode.<br />
 See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### Author
-
-Ellie Kemp 
+## By [Ellie Kemp](https://github.com/erkemp3) 🙋‍♀️
